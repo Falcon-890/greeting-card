@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="LpCV7F_YoAYiFa?w(L-1" x="0" y="0"><statement name="HANDLER"><block type="playMelody" id=")FUF%eM-?N9V@WulVQD="><value name="melody"><shadow type="melody_editor"><field name="melody">"- - - - - - - - "</field></shadow><block type="melody_editor" id="zaCfCb[je;)Il}~`E9il"><field name="melody">"C C D C F E - - "</field></block></value><value name="tempo"><shadow type="math_number_minmax" id="*jP0f|%;ORtP?IGc6AT+"><mutation min="40" max="500" label="Tempo" precision="0"></mutation><field name="SLIDER">120</field></shadow></value><next><block type="device_print_message" id="B3;ffFyI}2su^lgXko;_"><value name="text"><shadow type="text" id="%ig$AX|J_)L^g;hE7?tT"><field name="TEXT">Happy Birthday!!!</field></shadow></value></block></next></block></statement></block><block type="device_button_event" id="NB_EQkgMc(`?/QOf[Aj^" x="509" y="0"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="device_show_leds" id="]TZgA7Vl*nIcyB(@_0;3"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . . . . 
+        . # # # . 
+        # . . . #
+        `</field></block></statement></block><block type="device_button_event" id="jW!a[{++E^72;63DX~S[" x="771" y="0"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_show_leds" id="p:i8,-Mn7,q`H?@j%gye"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        # . . . # 
+        . # # # . 
+        . . . . .
+        `</field></block></statement></block><block type="device_button_event" id="M`*+_0x#|4Y~}I:AC-j3" x="0" y="350"><field name="NAME">Button.AB</field><statement name="HANDLER"><block type="device_clear_display" id="uwdNr[fpa*GRE^VMPC$%"><next><block type="playMelody" id="Dh{|4CWEGhCOWZn;CgE;"><value name="melody"><shadow type="melody_editor"><field name="melody">"- - - - - - - - "</field></shadow><block type="melody_editor" id="-f#8eLQ@bygu-HpJ$I~K"><field name="melody">"C C D C F E - - "</field></block></value><value name="tempo"><shadow type="math_number_minmax" id="/G+/Eg%1TnN$O44zwYb{"><mutation min="40" max="500" label="Tempo" precision="0"></mutation><field name="SLIDER">120</field></shadow></value><next><block type="device_print_message" id="KYnC9EC5!N28NH@LW+(`"><value name="text"><shadow type="text" id="p=k1~k#*+_3!Iy*;oAOK"><field name="TEXT">Happy Birthday!!!</field></shadow></value></block></next></block></next></block></statement></block></xml>
